@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>slide check</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="mode">
+        <ion-icon name="sunny-outline"></ion-icon>
+      </div>
+
+      <div class="translate">
+        <ion-icon
+          name="language-outline"
+          data-arabic="ar"
+          class="arabic"
+        ></ion-icon>
+        <ion-icon
+          name="text-outline"
+          data-english="en"
+          class="english"
+        ></ion-icon>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="slider">
+        <ul class="button-slider">
+          <li>
+            <a href="#" id="ronaldo" class="active" data-title="ronaldo"
+              >Ronaldo</a
+            >
+          </li>
+
+          <li>
+            <a href="#" id="Benzema" data-title="benzema">Benzema</a>
+          </li>
+
+          <li>
+            <a href="#" id="Luka" data-title="luka">Luka</a>
+          </li>
+
+          <li>
+            <a href="#" id="Bale" data-title="bale">Bale</a>
+          </li>
+        </ul>
+
+        <div class="title-slider">
+          <ul class="title-slider-list">
+            <li id="ronaldo" class="active" data-title="p1">
+              <p>
+                He is a Portuguese footballer who plays as a striker for the
+                Saudi Al-Nasr Club in the Saudi Professional League and is the
+                captain of the Portuguese national team. Often considered one of
+                the best players in the world, and considered by many to be one
+                of the greatest players in football history, Ronaldo has won
+                five Ballon d'Ors as the most European player.
+              </p>
+            </li>
+
+            <li id="Benzema" data-title="p2">
+              <p>
+                Karim Mostafa Benzema is a French professional footballer who
+                plays as a striker for Saudi Pro League club Al-Ittihad.
+              </p>
+            </li>
+
+            <li id="Luka" data-title="p3">
+              <p>
+                Luka Modrić is a Croatian professional footballer who plays as a
+                midfielder for La Liga club Real Madrid and captains the Croatia
+                national team.
+              </p>
+            </li>
+
+            <li id="Bale" data-title="p4">
+              <p>
+                He has played with Modrić in Real Madrid since 2013, forming a
+                lethal attacking trio with Benzema and Cristiano Ronaldo and
+                winning four UEFA Champions League titles.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
